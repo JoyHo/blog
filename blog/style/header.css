@@ -1,0 +1,112 @@
+body{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin:0px;
+	padding:0px;
+	text-align:center;			/*居中且宽度固定的版式*/
+	background-color:#111111;
+}
+html{
+	scrollbar-3dlight-color: #111111;
+	scrollbar-arrow-color: #FFFFFF;
+	scrollbar-base-color: #111111;		/*基调颜色 */
+	scrollbar-darkshadow-color: #1D4272;
+	scrollbar-face-color: #111111;
+	scrollbar-highlight-color: #FFFFFF;
+	scrollbar-shadow-color: #5380BA;
+}
+img{
+	border:0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+} 
+a:link{
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+a:visited{
+	color:#4F181D;
+	text-decoration: none;
+}
+a:hover{
+	color:#FF6633;
+	text-decoration:none;
+}
+#header{
+	height: 490px;
+	width: 1000px;
+	background-color:#111111;
+	text-align: left;
+	vertical-align: top;
+	margin-left: auto;
+	margin-right: auto;		/*这两段代码的意思是将该块在浏览器中居中显示*/
+	vertical-align: top;
+
+}
+#top{
+	height: 390px;
+	width: 1000px;
+	text-align: left;
+	vertical-align: top;
+	background-image: url(../images/header_bg.jpg);
+	background-repeat: no-repeat;
+}
+h1{
+	font-family: "微软雅黑", "黑体", "Arial";
+	font-size: 27px;
+	color: #FFFFFF;
+	padding-top: 90px;
+	padding-left:70px;
+}
+h2{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	padding-left:90px;
+}
+#nav{
+	height: 50px;
+	width: 1000px;
+	text-align: left;
+	vertical-align: top;
+	background-image: url(../images/header_nav_bg.jpg);
+	background-repeat: no-repeat;
+	padding-top:50px;
+}
+#nav ul{
+	font-size:16px;
+	color:#505990;
+	list-style-type:none;
+	padding-top: 3px;
+	padding-right: 5px;
+	padding-bottom: 4px;
+	line-height: 25px;
+	margin: 0px;
+	vertical-align: top;
+	font-weight: bold;
+	text-indent: 20px;
+	padding-left:140px;
+}
+#nav li{
+	font-size:16px;
+	color:#FFFFFF;
+	padding-left:23px;
+	background-position: 4px;
+	background-repeat: no-repeat;
+	float: left;
+}
+#nav a:link{
+	font-size:16px;	
+	color:#B5B552;
+	text-decoration:none;
+}
+#nav a:hover{
+	font-size:16px;	
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+#nav a:visited{
+	font-size:16px;	
+	color:#505990;
+	text-decoration:none;
+}
